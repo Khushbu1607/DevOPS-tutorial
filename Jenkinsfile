@@ -8,7 +8,7 @@ checkout scm
 
 stage('Build image')
 {
-app = docker.build("khushi2/khushbu_1607")
+app = docker.build("khushi2/nodeapp")
 }
 
 stage('Test image')
