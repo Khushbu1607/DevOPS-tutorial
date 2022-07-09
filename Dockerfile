@@ -1,5 +1,5 @@
 #use a node base image
-FROM node:16.6.2-bullseye-slim
+FROM node:16.16.0-bullseye-slim
 
 #set maintainer
 LABEL maintainer "miiro@getintodevops.com"
